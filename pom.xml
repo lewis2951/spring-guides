@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.lewis.github</groupId>
+    <artifactId>getting-started-guides-spring-boot</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!-- Basic -->
+        <module>gs-spring-boot</module>
+        <module>gs-scheduling-tasks</module>
+        <module>gs-async-method</module>
+        <module>gs-batch-processing</module>
+        <module>gs-serving-web-content</module>
+        <module>gs-messaging-stomp-websocket</module>
+        <module>gs-multi-module</module>
+        <module>gs-actuator-service</module>
+        <module>gs-testing-restdocs</module>
+
+        <!-- Form -->
+        <module>gs-uploading-files</module>
+        <module>gs-crud-with-vaadin</module>
+        <module>gs-validating-form-input</module>
+        <module>gs-handling-form-submission</module>
+
+        <!-- Security -->
+        <module>gs-authenticating-ldap</module>
+        <module>gs-securing-web</module>
+
+        <!-- Test -->
+        <module>gs-testing-web</module>
+    </modules>
+
+</project>
