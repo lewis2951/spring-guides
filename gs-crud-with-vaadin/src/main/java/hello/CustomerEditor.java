@@ -25,24 +25,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class CustomerEditor extends VerticalLayout implements KeyNotifier {
 
     private final CustomerRepository repository;
-
-    /**
-     * The currently edited customer
-     */
-    private Customer customer;
-
     /* Fields to edit properties in Customer entity */
     TextField firstName = new TextField("First name");
     TextField lastName = new TextField("Last name");
-
     /* Action buttons */
     // TODO why more code?
     Button save = new Button("Save", VaadinIcon.CHECK.create());
     Button cancel = new Button("Cancel");
     Button delete = new Button("Delete", VaadinIcon.TRASH.create());
     HorizontalLayout actions = new HorizontalLayout(save, cancel, delete);
-
     Binder<Customer> binder = new Binder<>(Customer.class);
+    /**
+     * The currently edited customer
+     */
+    private Customer customer;
     private ChangeHandler changeHandler;
 
     @Autowired
@@ -79,10 +75,6 @@ public class CustomerEditor extends VerticalLayout implements KeyNotifier {
         changeHandler.onChange();
     }
 
-    public interface ChangeHandler {
-        void onChange();
-    }
-
     public final void editCustomer(Customer c) {
         if (c == null) {
             setVisible(false);
@@ -112,6 +104,10 @@ public class CustomerEditor extends VerticalLayout implements KeyNotifier {
         // ChangeHandler is notified when either save or delete
         // is clicked
         changeHandler = h;
+    }
+
+    public interface ChangeHandler {
+        void onChange();
     }
 
 }

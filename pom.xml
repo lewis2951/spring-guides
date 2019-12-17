@@ -1,37 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.lewis.github</groupId>
-    <artifactId>getting-started-guides-spring-boot</artifactId>
+    <groupId>org.lewis.spring.guides</groupId>
+    <artifactId>getting-started-guides-foundational-spring</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
 
     <modules>
-        <!-- Basic -->
+        <!-- 1 Getting started with Spring -->
         <module>gs-spring-boot</module>
-        <module>gs-scheduling-tasks</module>
-        <module>gs-async-method</module>
         <module>gs-batch-processing</module>
-        <module>gs-serving-web-content</module>
-        <module>gs-messaging-stomp-websocket</module>
-        <module>gs-multi-module</module>
-        <module>gs-actuator-service</module>
-        <module>gs-testing-restdocs</module>
+        <module>gs-scheduling-tasks</module>
 
-        <!-- Form -->
+        <!-- 2 Developing web applications -->
+        <module>gs-serving-web-content</module>
+        <module>gs-handling-form-submission</module>
         <module>gs-uploading-files</module>
+        <module>gs-async-method</module>
+
+        <module>gs-multi-module</module>
+        <module>gs-testing-web</module>
+
+        <!-- 3 Working with data -->
+        <module>gs-relational-data-access</module>
+        <module>gs-accessing-data-mysql</module>
+        <module>gs-accessing-data-jpa</module>
+        <module>gs-managing-transactions</module>
+
         <module>gs-crud-with-vaadin</module>
         <module>gs-validating-form-input</module>
-        <module>gs-handling-form-submission</module>
 
-        <!-- Security -->
+        <module>gs-accessing-data-mongodb</module>
+        <module>gs-accessing-data-neo4j</module>
+        <module>gs-accessing-data-gemfire</module>
+        <module>gs-accessing-data-r2dbc</module>
+
+        <module>gs-caching</module>
+        <module>gs-caching-gemfire</module>
+
+        <!-- 4 Securing Spring -->
         <module>gs-authenticating-ldap</module>
         <module>gs-securing-web</module>
 
-        <!-- Test -->
-        <module>gs-testing-web</module>
+        <!-- 5 Working with configuration properties -->
+
     </modules>
 
 </project>
