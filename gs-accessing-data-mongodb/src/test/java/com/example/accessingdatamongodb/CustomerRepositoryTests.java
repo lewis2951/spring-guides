@@ -1,18 +1,15 @@
 package com.example.accessingdatamongodb;
 
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Example;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
 public class CustomerRepositoryTests {
 
@@ -21,7 +18,7 @@ public class CustomerRepositoryTests {
 
     Customer dave, oliver, carter;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         repository.deleteAll();
 
