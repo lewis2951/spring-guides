@@ -4,16 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.lewis.spring</groupId>
-    <artifactId>spring-guides</artifactId>
+    <artifactId>deployed-spring</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
-
-    <modules>
-        <module>foundational-spring</module>
-        <module>integrated-spring</module>
-        <module>reactive-spring</module>
-        <module>cloud-native-spring</module>
-        <module>deployed-spring</module>
-    </modules>
 
 </project>
