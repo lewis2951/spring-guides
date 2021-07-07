@@ -8,4 +8,35 @@
     <version>1.0</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <!-- 第6章：创建 REST 服务 -->
+        <module>gs-rest-service</module>
+        <module>gs-rest-hateoas</module>
+        <module>gs-rest-service-cors</module>
+
+        <!-- 第7章：消费 REST 服务 -->
+        <module>gs-consuming-rest</module>
+        <module>gs-consuming-rest-jquery</module>
+        <module>gs-consuming-rest-angularjs</module>
+
+        <!-- 第8章：发送异步消息 -->
+        <module>gs-messaging-rabbitmq</module>
+        <module>gs-messaging-jms</module>
+        <module>gs-messaging-stomp-websocket</module>
+        <module>gs-messaging-redis</module>
+
+        <!-- 第9章：Spring 集成 -->
+        <module>gs-integration</module>
+
+        <module>gs-accessing-data-rest</module>
+        <module>gs-accessing-mongodb-data-rest</module>
+        <module>gs-accessing-neo4j-data-rest</module>
+<!--        <module>gs-accessing-gemfire-data-rest</module>-->
+
+        <module>gs-producing-web-service</module>
+        <module>gs-consuming-web-service</module>
+
+        <module>gs-testing-restdocs</module>
+    </modules>
+
 </project>
