@@ -9,12 +9,12 @@
     <packaging>pom</packaging>
 
     <modules>
-        <!-- Getting started with Spring -->
+        <!-- 第1章：Spring 起步 -->
         <module>gs-spring-boot</module>
         <module>gs-batch-processing</module>
         <module>gs-scheduling-tasks</module>
 
-        <!-- Developing web applications -->
+        <!-- 第2章：开发 Web 应用 -->
         <module>gs-serving-web-content</module>
         <module>gs-handling-form-submission</module>
         <module>gs-uploading-files</module>
@@ -23,7 +23,7 @@
         <module>gs-multi-module</module>
         <module>gs-testing-web</module>
 
-        <!-- Working with data -->
+        <!-- 第3章：使用数据 -->
         <module>gs-relational-data-access</module>
         <module>gs-accessing-data-mysql</module>
         <module>gs-accessing-data-jpa</module>
@@ -34,17 +34,17 @@
 
         <module>gs-accessing-data-mongodb</module>
         <module>gs-accessing-data-neo4j</module>
-        <!--        <module>gs-accessing-data-gemfire</module>-->
+<!--        <module>gs-accessing-data-gemfire</module>-->
         <module>gs-accessing-data-r2dbc</module>
 
         <module>gs-caching</module>
-        <!--        <module>gs-caching-gemfire</module>-->
+<!--        <module>gs-caching-gemfire</module>-->
 
-        <!-- Securing Spring -->
+        <!-- 第4章：保护 Spring -->
         <module>gs-authenticating-ldap</module>
         <module>gs-securing-web</module>
 
-        <!-- Working with configuration properties -->
+        <!-- 第5章：使用配置属性 -->
 
     </modules>
 
