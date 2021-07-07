@@ -1,12 +1,12 @@
 # 第一部分：Spring 基础
 
-1. Getting started with Spring
-2. Developing web applications
-3. Working with data
-4. Securing Spring
-5. Working with configuration properties
+* 第1章：Spring 起步
+* 第2章：开发 Web 应用
+* 第3章：使用数据
+* 第4章：保护 Spring
+* 第5章：使用配置属性
 
-## Getting started with Spring
+## 第1章：Spring 起步
 
 这里聚焦 Spring Boot 快速入门，由下面三个例子体现。
 
@@ -14,7 +14,7 @@
 * gs-batch-processing
 * gs-scheduling-tasks
 
-## Developing web applications
+## 第2章：开发 Web 应用
 
 这里聚焦 Spring MVC 相关内容，包括表单提交、附件上传、异步请求。
 
@@ -28,7 +28,7 @@
 * gs-multi-module
 * gs-testing-web
 
-## Working with data
+## 第3章：使用数据
 
 这一章转移到后台数据库技术，首先是传统的 JDBC、MySQL关系型数据库、JPA和事务处理。
 
@@ -54,13 +54,13 @@ NoSQL 也是目前的主流，这里列举四个有代表性的 NoSQL 数据库�
 * gs-caching
 * gs-caching-gemfire
 
-## Securing Spring
+## 第4章：保护 Spring
 
 完成 Spring MVC 和 后台数据后，这里聚焦 Spring 的安全。
 
 * gs-authenticating-ldap
 * gs-securing-web
 
-## Working with configuration properties
+## 第5章：使用配置属性
 
 此处暂略。

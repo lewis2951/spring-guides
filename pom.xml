@@ -9,10 +9,19 @@
     <packaging>pom</packaging>
 
     <modules>
+        <!-- 第1部分：Spring 基础 -->
         <module>foundational-spring</module>
+
+        <!-- 第2部分：Spring 集成 -->
         <module>integrated-spring</module>
+
+        <!-- 第3部分：反应式 Spring -->
         <module>reactive-spring</module>
+
+        <!-- 第4部分：云原生 Spring -->
         <module>cloud-native-spring</module>
+
+        <!-- 第5部分：部署 Spring -->
         <module>deployed-spring</module>
     </modules>
 
